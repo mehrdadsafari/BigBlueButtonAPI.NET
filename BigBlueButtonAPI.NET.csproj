@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>ZadakBigBlueButtonApi</PackageId>
+    <Authors>Mehrdad Safari</Authors>
+    <Company>Zadak</Company>
+    <Description>BigBlueButtonAPI.NET - BigBlueButton API .NET Standard SDK It helps the .NET Framework application or the .NET Core application integrate with BigBlueButton API, quickly and easily.</Description>
+    <Copyright>Copyright 2021 © Zadak. All rights reserved.</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/dyx1001/BigBlueButtonAPI.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <PackageIcon>Logo.jpeg</PackageIcon>
+    <PackageProjectUrl>https://github.com/mehrdadsafari/BigBlueButtonAPI.NET.git</PackageProjectUrl>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/f0d87655da59934c5910001acb253a69?s=64</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.7.0" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logo.jpeg" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
