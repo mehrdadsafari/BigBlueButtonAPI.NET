@@ -1,6 +1,6 @@
-# BigBlueButtonAPI.NET - BigBlueButton API .NET Standard SDK
+# ZadakBigBlueButtonAPI.NET - BigBlueButton API .NET Standard SDK
 It helps the .NET Core application integrate with BigBlueButton API, **quickly and easily**.  
-[NuGet package is available](https://www.nuget.org/packages/BigBlueButtonAPI.NET/)
+[NuGet package is available](https://www.nuget.org/packages/ZadakBigBlueButtonApi/)
 
 What is BigBlueButton?
 
